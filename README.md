@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# SQUID GAME
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+-  [Live Link](https://squid-game94.web.app/).
+-  [Code Link](https://github.com/aminuls/squid-game).
 
 ## Available Scripts
 
