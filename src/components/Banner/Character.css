@@ -1,0 +1,16 @@
+.anchor {
+   color: white;
+}
+path {
+   fill: white;
+}
+.anchor-container:hover .anchor {
+   background: linear-gradient(99.33deg, #ffbc30 -23.53%, #fa3e64 105.59%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-weight: 600;
+   background-clip: text;
+}
+.anchor-container:hover path {
+   fill: #fa3e64;
+}

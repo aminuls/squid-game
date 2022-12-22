@@ -7,7 +7,7 @@ import Squad from '../../components/Banner/Squad';
 
 const Home = () => {
    return (
-      <div>
+      <div style={{maxWidth:"1920px", margin:"0 auto"}}>
          <Banner></Banner>
          <Cards></Cards>
          <Squad></Squad>

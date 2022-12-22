@@ -1,0 +1,26 @@
+#button-container {
+   position: relative;
+   border: 2px solid white;
+   height: 72px;
+   left: 40px;
+   max-width: 180px;
+   transition: max-width 1s, left 2s, border-radius 1s ease-in-out;
+}
+#button-container:hover {
+   max-width: 222px;
+   left: 0;
+   border-radius: 200px;
+   overflow: hidden;
+}
+#button {
+   background-image: linear-gradient(135deg, #ffbc30, #fa3e64);
+   inset: 6px 6px 6px -40px;
+   cursor: pointer;
+   transition: background-image 2s, inset 1s, transform 0.25s ease-in-out;
+}
+#button-container:hover #button {
+   background-image: linear-gradient(135deg, #fa3e64, #ffbc30);
+   inset: 0px;
+   transform: scale(1.057, 1.02);
+}
+

@@ -15,7 +15,7 @@ const NextGame = () => {
    };
    return (
       <div className="mt-5 py-5" style={{ backgroundImage: `url(${footerbg})`, backgroundPosition: "100% 20%", backgroundSize: "cover", backgroundRepeat: "no-repeat" }}>
-         <h1 className="display-1 text-uppercase" style={nextTitle}>
+         <h1 data-aos="fade-down" className="display-1 text-uppercase" style={nextTitle}>
             Ready <span style={{ color: "#FFBC30" }}>For</span> The <br /> next <span style={{ color: "#FA3E64" }}>game</span>
          </h1>
          <div className="mt-4 mx-2" style={{ transform: "translate(50%, 0%)" }}>
@@ -30,7 +30,7 @@ const NextGame = () => {
                   backgroundClip: "content-box, border-box",
                }}
             >
-               <div className="input-group input-group-lg">
+               <div data-aos="zoom-in" className="input-group input-group-lg">
                   <input type="email" className="form-control bg-transparent border-0 text-white shadow-none ps-4" placeholder="Enter your email" aria-label="Enter your email" required />
                </div>
                <button style={buttonTitle} type="submit" className="btn btn-lg rounded-2 m-2">
@@ -39,7 +39,7 @@ const NextGame = () => {
             </form>
          </div>
          <div className="container my-5 pt-4">
-            <img src={playerGroup} alt="player-group" style={{ maxWidth: "80%" }} />
+            <img data-aos="zoom-in" src={playerGroup} alt="player-group" style={{ maxWidth: "80%" }} />
          </div>
       </div>
    );

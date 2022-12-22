@@ -13,10 +13,10 @@ const Squad = () => {
    };
    return (
       <div className="mt-5 py-5">
-         <h1 className="display-3 text-uppercase" style={squadTitle}>
+         <h1 data-aos="fade-down" className="display-3 text-uppercase" style={squadTitle}>
             Do or <span style={{ color: "#FFBC30" }}>die squid</span> game <br /> team <span style={{ color: "#FA3E64" }}>rules</span>
          </h1>
-         <div className="mt-5 position-relative">
+         <div data-aos="fade-in" className="mt-5 position-relative">
             <div>
                <img src={roadGroup} className="w-100" alt="road" />
             </div>

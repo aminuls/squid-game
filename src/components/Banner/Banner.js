@@ -45,7 +45,7 @@ const Banner = () => {
             <div className="row">
                <div className="col-12 col-sm-8 col-lg-6">
                   <div className="card bg-transparent h-100 border-0 mt-5 pt-5">
-                     <div className="card-body text-start text-white">
+                     <div data-aos="fade-right" className="card-body text-start text-white">
                         <div className="d-flex align-items-baseline gap-1">
                            <h5 className="card-title mt-2">Squid Cards</h5>
                            <span style={horizontal}></span>
@@ -60,7 +60,7 @@ const Banner = () => {
                            <div>
                               <h5 className="card-title mt-5">Guard Of Squid</h5>
                               <div className="d-flex gap-3 mt-3 pt-3">
-                                 <div className="bg-light rounded-4  d-flex justify-content-center" style={{ height: "calc(29vmin)", width: "calc(27vmin)", background: "linear-gradient(134.25deg, #7D3FBB -6.11%, #FF006B 113.46%)" }}>
+                                 <div className="bg-light rounded-4 d-flex justify-content-center" style={{ height: "calc(29vmin)", width: "calc(27vmin)", background: "linear-gradient(134.25deg, #7D3FBB -6.11%, #FF006B 113.46%)" }}>
                                     <img className="position-relative" style={{ height: "110%", top: "-10%" }} src={playerOne} alt="" />
                                  </div>
                                  <div className="bg-light rounded-4 d-flex justify-content-center" style={{ height: "calc(29vmin)", width: "calc(27vmin)", background: "linear-gradient(99.33deg, #FFBC30 -23.53%, #FA3E64 105.59%)" }}>

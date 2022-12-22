@@ -1,0 +1,13 @@
+.gradient-container {
+   background-image: linear-gradient(360deg, #3d1466 -48.4%, rgba(58, 19, 97, 0) 86%);
+   z-index: 1000;
+}
+.gradient-container:hover {
+   background-image: linear-gradient(360deg, #3d1466 -2.63%, #fa06ff 140.55%);
+}
+.gradient-self{
+   display: none;
+}
+.gradient-container:hover .gradient-self{
+   display: block;
+}
